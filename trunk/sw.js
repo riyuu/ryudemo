@@ -7,7 +7,7 @@ self.addEventListener('install', event => {
     event.waitUntil(
         caches.open(cacheName)
             .then(cache => cache.addAll([
-                '/style/img/hello.png'
+                '/trunk/style/img/hello.png'
             ]))
     );
 });
