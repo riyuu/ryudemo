@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<img src="style/img/hello.png" alt="">
+<script src="js/index.js"></script>
+
+<script>
+    // 注册 service worker
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').then(function (registration) {
+            // 注册成功
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }).catch(function (err) {
+            // 注册失败 :(
+            console.log('ServiceWorker registration failed: ', err);
+        });
+    }
+    //    if ('serviceWorker' in navigator) {
+    //        navigator.serviceWorker.getRegistration().then((registration) => {
+    //            registration && registration.unregister().then((boolean) => {
+    //                boolean ? console.log('注销成功') : console.log('注销失败')
+    //            });
+    //        })
+    //    }
+</script>
+</body>
+</html>
