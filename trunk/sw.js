@@ -1,4 +1,4 @@
-var cacheName = 'helloWorld-v31';
+var cacheName = 'helloWorld-v32';
 self.addEventListener('activate', function(e) {
     console.log('[ServiceWorker] Activate');
     e.waitUntil(
