@@ -7,7 +7,7 @@
   "background_color": "#FFDF00",
   "icons": [
     {
-      "src": "trunk/style/img/homescreen-144.jpg",
+      "src": "style/img/homescreen-144.jpg",
       "sizes": "144x144",
       "type": "image/png"
     }
