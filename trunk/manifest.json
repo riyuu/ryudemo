@@ -1,7 +1,7 @@
 {
   "name": "test web app",
   "short_name": "tests",
-  "start_url": "trunk/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "theme_color": "#FFDF00",
   "background_color": "#FFDF00",
