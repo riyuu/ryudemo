@@ -1,4 +1,4 @@
-var cacheName = 'helloWorld-v28';
+var cacheName = 'helloWorld-v30';
 self.addEventListener('activate', function (event) {
     event.waitUntil(self.clients.claim());
 });
